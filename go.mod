@@ -2,7 +2,6 @@ module github.com/confidentsecurity/ohttp
 
 go 1.25.1
 
-
 require (
 	github.com/cloudflare/circl v1.6.1
 	github.com/confidentsecurity/bhttp v0.0.5
