@@ -19,7 +19,7 @@ import (
 	"testing"
 
 	"github.com/cloudflare/circl/hpke"
-	"github.com/confidentsecurity/ohttp"
+	"github.com/openpcc/ohttp"
 	"github.com/stretchr/testify/require"
 )
 

@@ -20,8 +20,8 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/confidentsecurity/bhttp"
-	"github.com/confidentsecurity/ohttp/encoding"
+	"github.com/openpcc/bhttp"
+	"github.com/openpcc/ohttp/encoding"
 )
 
 // RequestEncoder encodes requests to bhttp.

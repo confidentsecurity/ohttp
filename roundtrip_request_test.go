@@ -26,7 +26,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/confidentsecurity/ohttp"
+	"github.com/openpcc/ohttp"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

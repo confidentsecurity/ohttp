@@ -26,9 +26,9 @@ import (
 	"time"
 
 	"github.com/cloudflare/circl/hpke"
-	"github.com/confidentsecurity/ohttp/encoding"
-	"github.com/confidentsecurity/ohttp/encoding/bhttp"
-	"github.com/confidentsecurity/twoway"
+	"github.com/openpcc/ohttp/encoding"
+	"github.com/openpcc/ohttp/encoding/bhttp"
+	"github.com/openpcc/twoway"
 	"go.opentelemetry.io/otel/trace"
 	"go.opentelemetry.io/otel/trace/noop"
 )

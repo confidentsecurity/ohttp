@@ -19,8 +19,8 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/confidentsecurity/bhttp"
-	"github.com/confidentsecurity/ohttp/encoding"
+	"github.com/openpcc/bhttp"
+	"github.com/openpcc/ohttp/encoding"
 )
 
 // ResponseEncoder encodes responses to bhttp.

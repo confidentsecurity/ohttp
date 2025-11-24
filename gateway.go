@@ -23,8 +23,8 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/confidentsecurity/ohttp/encoding"
-	"github.com/confidentsecurity/twoway"
+	"github.com/openpcc/ohttp/encoding"
+	"github.com/openpcc/twoway"
 	"go.opentelemetry.io/otel/trace"
 )
 

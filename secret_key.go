@@ -21,7 +21,7 @@ import (
 
 	"github.com/cloudflare/circl/hpke"
 	"github.com/cloudflare/circl/kem"
-	"github.com/confidentsecurity/twoway"
+	"github.com/openpcc/twoway"
 )
 
 var (

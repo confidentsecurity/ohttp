@@ -70,7 +70,7 @@ Below we compare the features of this package to two other Go OHTTP packages.
 
 A great reference implementation by one of the authors of the OHTTP RFC. It's a library that provides both a client and a gateway.
 
-| Feature | `confidentsecurity/ohttp` | `chris-wood/ohttp-go` | Notes |
+| Feature | `openpcc/ohttp` | `chris-wood/ohttp-go` | Notes |
 | ------- | ------------------------- | --------------------- | ----- |
 | Key rotation  | Keys are sourced on demand via an injectable function | Gateway is initialized with a list of static keys |
 | Key distribution | - | - | RFC 9458 explicitly leaves this unspecified |
@@ -82,9 +82,9 @@ A great reference implementation by one of the authors of the OHTTP RFC. It's a 
 
 ### `cloudflare/privacy-gateway-server-go`
 
-A command that wraps the `chris-wood/ohttp-go` to provide a gateway you can run as a dedicated server. Since this is a command, we'll compare it to the recommended way to run the `confidentsecurity/ohttp` Gateway as [a dedicated server](#gateway-as-a-dedicated-server).
+A command that wraps the `chris-wood/ohttp-go` to provide a gateway you can run as a dedicated server. Since this is a command, we'll compare it to the recommended way to run the `openpcc/ohttp` Gateway as [a dedicated server](#gateway-as-a-dedicated-server).
 
-| Feature | `confidentsecurity/ohttp` | `cloudflare/privacy-gateway-server-go` | Notes |
+| Feature | `openpcc/ohttp` | `cloudflare/privacy-gateway-server-go` | Notes |
 | ------- | ------------------------- | -------------------------------------- | ----- |
 | Key rotation  | Keys are sourced on demand via an injectable function | Gateway is initialized with a list of static keys | |
 | Key distribution | - | Key Configs can be retrieved via endpoint. | RFC 9458 explicitly leaves this unspecified. | |

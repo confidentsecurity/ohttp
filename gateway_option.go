@@ -18,8 +18,8 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/confidentsecurity/ohttp/encoding"
-	"github.com/confidentsecurity/ohttp/encoding/bhttp"
+	"github.com/openpcc/ohttp/encoding"
+	"github.com/openpcc/ohttp/encoding/bhttp"
 	"go.opentelemetry.io/otel/trace"
 	"go.opentelemetry.io/otel/trace/noop"
 )

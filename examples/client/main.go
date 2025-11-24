@@ -22,7 +22,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/confidentsecurity/ohttp"
+	"github.com/openpcc/ohttp"
 )
 
 func main() {

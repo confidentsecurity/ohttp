@@ -17,7 +17,7 @@ import (
 	"errors"
 	"net/http"
 
-	"github.com/confidentsecurity/ohttp/encoding"
+	"github.com/openpcc/ohttp/encoding"
 	"go.opentelemetry.io/otel/trace"
 )
 

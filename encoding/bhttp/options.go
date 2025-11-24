@@ -17,7 +17,7 @@ package bhttp
 import (
 	"fmt"
 
-	"github.com/confidentsecurity/bhttp"
+	"github.com/openpcc/bhttp"
 )
 
 const (

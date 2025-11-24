@@ -23,8 +23,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/confidentsecurity/ohttp"
-	"github.com/confidentsecurity/twoway"
+	"github.com/openpcc/ohttp"
+	"github.com/openpcc/twoway"
 	"github.com/quic-go/quic-go/quicvarint"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

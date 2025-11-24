@@ -18,7 +18,7 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/confidentsecurity/ohttp"
+	"github.com/openpcc/ohttp"
 	"github.com/stretchr/testify/require"
 )
 
